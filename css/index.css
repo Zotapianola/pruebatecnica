@@ -3120,10 +3120,6 @@ table img {
         width: 100%;
     }
 
-    #glosa p, #glosa label {
-        text-decoration: overline;
-    }
-
     #contenedor-glosa {
         text-align: justify;
         padding: 0px 20px;
