@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="40"
+   height="40"
+   viewBox="0 0 10.583333 10.583334"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="cuadro_interrogacion.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="-52.914013"
+     inkscape:cy="59.615543"
+     inkscape:document-units="mm"
+     inkscape:current-layer="text4520"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="2220"
+     inkscape:window-height="1171"
+     inkscape:window-x="2391"
+     inkscape:window-y="47"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-286.41663)">
+    <g
+       aria-label="?"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:quicksand;-inkscape-font-specification:'quicksand, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#363026;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="text4520"
+       transform="translate(1.8426339,-1.889881)">
+      <path
+         d="m 2.9837384,294.16955 q 0,-0.16578 0.1064954,-0.27303 0.1161767,-0.11701 0.2807605,-0.11701 0.4259813,-0.0195 0.7648302,-0.18528 0.3388488,-0.17552 0.5324768,-0.48755 0.2033093,-0.32178 0.2033093,-0.76058 0,-0.40955 -0.1839466,-0.72158 -0.1742651,-0.31204 -0.4840697,-0.48756 -0.3001233,-0.17552 -0.6776977,-0.17552 -0.3582116,0 -0.6680163,0.15602 -0.3098047,0.15602 -0.5324768,0.40955 -0.1064954,0.10726 -0.2517163,0.14627 -0.1355395,0.039 -0.2807604,-0.0585 -0.1645838,-0.11701 -0.1839466,-0.27304 -0.00968,-0.16576 0.1161767,-0.30228 0.3194861,-0.39004 0.7938745,-0.61431 0.4743884,-0.23403 1.0068652,-0.23403 0.5905651,0 1.0746348,0.27303 0.4840699,0.27303 0.7745117,0.76058 0.2904419,0.47781 0.2904419,1.12138 0,0.42904 -0.1549024,0.78984 -0.1452208,0.36078 -0.4163,0.64357 -0.271079,0.27302 -0.6292907,0.43879 -0.3582116,0.16577 -0.7745117,0.20478 -0.029044,0 0,0 0.029044,-0.01 0.058088,-0.0292 v 0.79958 q 0,0.16578 -0.1064953,0.28279 -0.1064954,0.11701 -0.271079,0.11701 -0.1742652,0 -0.2807605,-0.11701 -0.1064954,-0.11701 -0.1064954,-0.28279 z m 0.367893,3.21785 q -0.2033093,0 -0.3098047,-0.11701 -0.1064952,-0.12676 -0.1064952,-0.33154 v -0.19502 q 0,-0.20477 0.1064952,-0.32179 0.1064954,-0.11701 0.3098047,-0.11701 h 0.087133 q 0.2033093,0 0.3098046,0.11701 0.1064954,0.11702 0.1064954,0.32179 v 0.19502 q 0,0.20478 -0.1064954,0.33154 -0.1064953,0.11701 -0.3098046,0.11701 z"
+         style="fill:#363026;fill-opacity:1;stroke-width:0.24290423"
+         id="path4522"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="opacity:0.97000002;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#40d6cb;stroke-width:0.726;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4525"
+         width="9.3050814"
+         height="9.2578325"
+         x="-1.2035079"
+         y="288.99286" />
+    </g>
+  </g>
+</svg>

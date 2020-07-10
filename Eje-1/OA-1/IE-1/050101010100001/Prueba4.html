@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="../../../../css/index.css">
+	
+	<title>Prueba Técnica 4</title>
+	<!-- MATHJAX NO IMPORTADO -->
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous"> -->
+
+	<!-- <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script> -->
+
+	<!-- <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script> -->
+	<link rel="stylesheet" href="../../../../katex/dist/katex.min.css">
+	<script defer src="../../../../katex/dist/katex.min.js"></script>
+	<script defer src="../../../../katex/dist/contrib/auto-render.min.js"></script>
+	<script defer>
+		document.addEventListener("DOMContentLoaded", function() {
+			renderMathInElement(document.body, { });
+			document.getElementsByTagName('body')[0].style.opacity = "1";
+		});
+	</script>
+	<script>document.domain = "adaptativamente.cl";</script>
+</head>
+
+<body>
+	<header class="container-fluid">
+		<div class="row justify-content-center no-gutters">
+			<div class="col-11 lineasbarra">
+				<img id="cerrar" width="15" src="../../../../imagenes_front/figuras/cruz.svg" alt="cerrar">
+				<hr class="sidelinebar d-none d-sm-block">
+				<svg xmlns="http://www.w3.org/2000/svg" id="progressbar" version="1.1" class="mx-sm-auto d-sm-block"><rect x="2" y="2" width="250" height="32" fill="none" stroke="#CCCBCB" stroke-width="1" rx="5" ry="5"></rect><rect x="250" y="17" width="-250" height="2" fill="#E7E5E5" rx="2" ry="2"></rect></svg>
+				<hr class="sidelinebar d-none d-sm-block">
+			</div>
+		</div>
+	</header>
+	<section>
+		<div id="contenedor" class="container-fluid">
+			<div id="contenido" class="row justify-content-center">
+				<div class="col-md-12 col-sm-12 col-12"><div id="container-e0">
+					<p>El siguiente triángulo rectángulo</p>
+					<!-- <p>$$ \begin{alignedat}
+						ax + by = c \\
+						dx + ey = f
+					\end{alignedat}\Bigg\rbrack $$</p> -->
+					<img width="240" src="../../../../imagenes_front/figuras/tri1.svg" alt="tri">
+					<p>¿Qué representan gráficamente las ecuaciones que se muestran en el sistema?</p>
+			<div id="respuesta"><div id="container-r0" class="row justify-content-center">
+				<div class="col-12 col-sm-6 col-md-3" style="margin-bottom: 5px;">
+            <div class="opcionradio">
+              <input type="radio" id="radio-0" name="answer" value="7">
+              <label for="radio-0">Dos rectas paralelas</label>
+            </div></div><div class="col-12 col-sm-6 col-md-3" style="margin-bottom: 5px;">
+            <div class="opcionradio">
+              <input type="radio" id="radio-1" name="answer" value="3000">
+              <label for="radio-1">Dos rectas coincidentes</label>
+            </div></div><div class="col-12 col-sm-6 col-md-3" style="margin-bottom: 5px;">
+            <div class="opcionradio">
+              <input type="radio" id="radio-2" name="answer" value="600">
+              <label for="radio-2">Dos rectas secantes</label>
+			</div></div>
+			<div class="col-12 col-sm-6 col-md-3" style="margin-bottom: 5px;">
+            <div class="opcionradio">
+              <input type="radio" id="radio-3" name="answer" value="70000">
+              <label for="radio-3">Otra alternativa</label>
+			</div>
+			</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<input id="hiddenIntento" type="hidden" onchange="cambio(this);">
+	<script src="../../../../js/jquery-3.3.1.slim.min.js"></script>
+	<script src="index.js"></script>
+	<script src="app.js"></script>
+	<script src="../../../../js/jsEjercicios.js"></script>
+	<script src="../../../../js/svg-pan-zoom.min.js"></script>
+	<script src="../../../../js/hammer.min.js"></script>
+</body>
+<footer class="container-fluid">
+	<div id="consulta" class="col-sm">
+		<button type="button" id="btnConsulta" onclick="pressConsulta();" class="boton boton-icon boton-animation icon-consulta">
+			<span>CONSULTA</span>
+		</button>
+	</div>
+	<div id="siguiente" class="col-sm">
+		<button type="button" id="btnResponder" class="boton boton-icon boton-animation icon-responder" disabled>
+			<span>RESPONDER</span>
+		</button>
+	</div>
+</footer>
+	<input id="hiddenIntento" type="hidden" onchange="cambio(this);" />
+	<script src="../../../../js/jquery-3.3.1.slim.min.js"></script>
+	<script src="index.js"></script>
+	<!-- <script src="app.js"></script> -->
+	<script src="../../../../js/jsEjercicios.js"></script>
+	<script src="../../../../js/svg-pan-zoom.min.js"></script>
+	<script src="../../../../js/hammer.min.js"></script>
+	<style>
+		.katex, .mathdefault {
+			font-family:"quicksandmedium" !important;
+			font-size: 1.2em;
+			color: #363026 !important;
+			margin: 2em 0;
+		}
+	</style>
+</body>
+</html>

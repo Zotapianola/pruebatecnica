@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- HOJA DE ESTILOS PRUEBA 3 -->
+	<link rel="stylesheet" href="../../../../css/index.css">
+	<title>Prueba Técnica 3</title>
+	<!-- IMPORTA KATEX JS Y CSS -->
+	<link rel="stylesheet" href="../../../../katex/dist/katex.min.css">
+	<script defer src="../../../../katex/dist/katex.min.js"></script>
+	<script defer src="../../../../katex/dist/contrib/auto-render.min.js"></script>
+	<!-- OCULTA F(X) KATEX HASTA QUE HAYA CARGADO -->
+	<script defer>
+		document.addEventListener("DOMContentLoaded", function() {
+			renderMathInElement(document.body, { });
+			document.getElementsByTagName('body')[0].style.opacity = "1";
+		});
+	</script>
+</head>
+<body>
+	<!-- HEADER -->
+	<header class="container-fluid">
+		<div class="row justify-content-center no-gutters">
+			<div class="col-11 lineasbarra">
+				<img id="cerrar" width="15" src="../../../../imagenes_front/figuras/cruz.svg" alt="cerrar">
+				<hr class="sidelinebar d-none d-sm-block">
+				<svg xmlns="http://www.w3.org/2000/svg" id="progressbar" version="1.1" class="mx-sm-auto d-sm-block"><rect x="2" y="2" width="250" height="32" fill="none" stroke="#CCCBCB" stroke-width="1" rx="5" ry="5"></rect><rect x="250" y="17" width="250" height="2" fill="#E7E5E5" rx="2" ry="2"></rect></svg>
+				<hr class="sidelinebar d-none d-sm-block">
+			</div>
+		</div>
+	</header>
+	<!-- SECTION -->
+	<section>
+		<div id="contenedor" class="container-fluid">
+			<!-- ENUNCIADO -->
+			<div id="contenido" class="row justify-content-center">
+				<div class="col-md-12 col-sm-12 col-12">
+					<div id="container-e0">
+						<p>Considera el siguiente sistema de ecuaciones:</p>
+						<p>$$ \begin{alignedat}
+							ax + by = c \\
+							dx + ey = f
+						\end{alignedat}\Bigg\rbrack $$</p>
+						<p>¿Qué representan gráficamente las ecuaciones que se muestran en el sistema?</p>
+					</div>
+				</div>
+			</div>
+			<!-- RESPUESTA -->
+			<div id="respuesta">
+				<div id="container-r0" class="row justify-content-center">
+					<!-- OPCIÓN -->
+					<div class="col-12 col-sm-7 col-md-4" style="margin-bottom: 5px;">
+						<div class="opcionradio">
+							<input 
+							onclick="evalOptions(this);" 
+							type="radio" 
+							id="radio-0" 
+							name="answer">
+							<label for="radio-0">Dos rectas <br> paralelas</label>
+						</div>
+					</div>
+					<!-- OPCIÓN -->
+					<div class="col-12 col-sm-7 col-md-4" style="margin-bottom: 5px;">
+						<div class="opcionradio">
+							<input 
+							onclick="evalOptions(this);" 
+							type="radio" id="radio-1" 
+							name="answer">
+							<label for="radio-1">Dos rectas <br> coincidentes</label>
+						</div>
+					</div>
+					<!-- OPCIÓN -->				
+					<div class="col-12 col-sm-7 col-md-4" style="margin-bottom: 5px;">
+						<div class="opcionradio">
+							<input 
+							onclick="evalOptions(this);" 
+							type="radio" id="radio-2" 
+							name="answer">
+							<label for="radio-2">Dos rectas <br> secantes</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- GLOSA -->
+	<div id="glosa">
+		<div class="modal-content animate-zoom-glosa">
+			<div id="contenedor-glosa" class="container-fluid">
+				<div id="explicacion" class="row no-gutters">
+					<div class="col-12 offset-sm-2 col-sm-10">
+						<h2>Solución</h2>
+					</div>
+					<div class="col-12 col-sm-12">
+						<div class="row no-gutters justify-content-center" id="contenido-glosa">
+							<p>Para determinar qué representan gráficamente las ecuaciones de un sistema, 
+							debemos comparar las razones que se forman entre los coeficientes numéricos de ambas ecuaciones.</p>
+							<p>Recuerda que dos rectas son paralelas si las razones entre los coeficientes numéricos de "x" e "y"
+								son iguales y distintos a la razón de los coeficientes numéricos solos.
+							</p>
+							<p>En este caso, tenemos que $$\frac{a}{d} = \frac{b}{e} \cancel{=}  \frac{c}{f} $$ por lo tanto, las rectas no son paralelas.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row no-gutters justify-content-end">
+					<div>
+						<button type="button" id="btnCerrarGlosa" onclick="cerrarFeedGlosa()"
+							class="boton boton-icon boton-animation icon-responder">
+							<span>CONTINUAR</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- FOOTER -->
+	<footer class="container-fluid">
+		<div id="consulta" class="col-sm">
+			<button type="button" id="btnConsulta" onclick="" class="boton boton-icon boton-animation icon-consulta">
+				<span>CONSULTA</span>
+			</button>
+		</div>
+		<div id="siguiente" class="col-sm">
+			<button type="button" id="btnResponder" onclick="answer();" class="boton boton-icon boton-animation icon-responder" disabled>
+				<span>RESPONDER</span>
+			</button>
+		</div>
+		<div class="feedback" id="container-feedback">
+			<div id="footer-feedback" class="animate-zoom">
+				<div id="grid-feedback">
+					<div id="sub-grid">
+						<div id="sub-container">
+								<img id="imagen-feedback">
+							<div id="text-container">
+								<div>
+									<span id="feedback-span"></span>
+									<p id="feedback-p"></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="siguiente-feedback">
+						<button onclick="toggleFback('none', 'block', 'block');" 
+								type="button" 
+								id="btnContinuar" 
+								class="boton boton-icon boton-animation icon-responder">
+							<span>CONTINUAR</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- IMPORTA JQUERY E INDEX -->
+	<script src="../../../../js/jquery-3.3.1.slim.min.js"></script>
+	<script src="index.js"></script>
+	<!-- DETALLES DE ESTILO KATEX -->
+	<style>
+		.katex, .mathdefault {
+			font-family:"quicksandmedium" !important;
+			font-size: 1.2em;
+			color: #363026 !important;
+			margin: 2em 0;
+		}
+	</style>
+</body>
+</html>
